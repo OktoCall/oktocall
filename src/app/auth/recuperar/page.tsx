@@ -39,10 +39,10 @@ export default function Page(){
         const parametrosPlantilla = await respuesta.json()
 
         //Ejecutamos send, para enviar el mail de recuperacion
-        send("service_x9zxxxo", //serviceID
-            "template_6tuvt5h", // templateID
+        send("service_bvpyclx", //serviceID
+            "template_7rq6kwd", // templateID
             parametrosPlantilla, //parametros
-            "zEp9yRUw6VXdSQyUd"//Llave publica
+            "5JKfyt7Q1Gv4OsuhF"//Llave publica
         )      
         
         setEnviado(true)
